@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite Bistro</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Navbar selection-->
+<body>
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="#">Bite Bistro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+<div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Hero section-->
+<header id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Gourmet Fast Food</h1>
+            <p class="lead mb-5 fs-4">Experience the perfect blend of speed and sophistication.</p>
+            <a href="#menu" class="btn hero-btn text-uppercase">View Menu</a>
+        </div>
+    </header>
+ <!-- MENU SECTION -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our Signature Menu</h2>
+                <div style="width: 60px; height: 3px; background: var(--primary-gold); margin: 20px auto;"></div>
+            </div>
+ <!-- ROW: Starts the grid -->
+<div class="row g-4">
+    <!--1. Double cheese burger-->
+                <div class="col-md-6">
+                    <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Double Cheese Burger" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Cheese Smash burger</h5>
+                            <p class="card-text text-muted">Two smashed beef patties, double aged cheddar, and house sauce.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="menu-price">KSH 1500</span>
+                                <button class="btn btn-outline-dark btn-sm">Munch now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--2. Chicken Burger-->
+                <div class="col-md-6">
+                    <div class="card menu-card">
+                        <img src="Assets/Images/loaded fries.jpg" class="card-img-top" alt="Loaded fries" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Cheesy loaded fries</h5>
+                            <p class="card-text text-muted">Cheese,minced meat fries with few pieces of bacon.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="menu-price">KSH 1500</span>
+                                <button class="btn btn-outline-dark btn-sm">Munch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--3. Chicken wings-->  
+                <div class="col-md-6">
+                    <div class="card menu-card">
+                        <img src="Assets/Images/chicken wings.jpg" class="card-img-top" alt="Sizzling chicken wings" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Saucy chicken wings</h5>
+                            <p class="card-text text-muted">Crispy on the outside, moist and tender on the inside, and featuring nutty sesame seeds.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="menu-price">KSH 1500</span>
+                                <button class="btn btn-outline-dark btn-sm">Munch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--4. Hot dogs-->
+                <div class="col-md-6">
+                    <div class="card menu-card">
+                        <img src="Assets/Images/hotdog.jpg" class="card-img-top" alt="All beef hotdog" style="height: 250px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">American style hotdog</h5>
+                            <p class="card-text text-muted">Grilled to perfection and nestled in a soft, toasted bun. Topped with your choice of tangy mustard, rich ketchup, and crisp onions </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="menu-price">KSH 1500</span>
+                                <button class="btn btn-outline-dark btn-sm">Munch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--About us-->
+
+ <section id="about">
+        <div class="container">
+                        <div class="row align-items-center">
+                <!-- COLUMN 1: Image (Left Side) -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Restaurant Interior" class="img-fluid about-img">
+                </div>
+                <!-- COLUMN 2: Text (Right Side) -->
+                <div class="col-md-6 ps-md-5">
+                    <h2 class="display-5 fw-bold mb-4">Our Story</h2>
+                    <p class="lead">Fast food doesn't have to mean compromise.</p>
+                    <p class="text-muted mb-4">Founded in 2023, At Bites Bistro, we're obsessed with crafting the perfect fast food experience. From our legendary burgers and golden fries to our fresh, hand-held delights, every item on our menu is designed to hit the spot without hitting the pause button on your day. This is fast food, done right.
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--contact section-->
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Contact Us</h2>
+                    <p class="lead text-muted">Want to munch, Send us a message!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <form class="p-4 bg-white shadow rounded">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tell us what you think..."></textarea>
+                        </div>
+                        <button type="submit" class="btn hero-btn w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+<footer class="text-center py-4 bg-white shadow-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="mb-3 fw-bold" style="color: #d4af37;">Bite Bistro</h3>
+                    <p class="mb-4 text-muted">123 Broadway Walk, Parklands</p>
+                    
+                    <div class="mb-4">
+                         <a href="https://instagram.com" class="social-icon text-decoration-none">
+                            <i class="bi bi-instagram fs-2" style="color: #E1306C;"></i>
+                         </a>
+                    </div>
+                    
+                    <small class="text-muted">&copy; 2025 Bite Bistro. All Rights Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
